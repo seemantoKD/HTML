@@ -1,0 +1,92 @@
+<!--
+    note : 
+        # html a table create korte hole table tag use korte hoy
+        # table er head tag -> thead
+        # table er body tag -> tbody -> table er main kaj ekhane kora hoy
+        # table er foot tag -> tfoot
+        # thead table row (tr) tag thake . tr -> table er row shuru
+            -> tr er moddhe td that means table data likhte hoy
+        # thead a td use na kore th use kora hoy
+        # border collapse use kore 2 ta line theke collapse kora jay 
+        # caption tag er maddome table er title deya jay
+        # cellspacing & cellpading
+            1. cellspacing : ekti cell theke arekti cell er space
+        reminder ! border collapse and border spacing ek sathe kaj kore na
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width : 300px;
+            height : 200px;
+            border : 1px solid black;
+            /*cell spacing*/
+            border-spacing: 15px;
+        }
+        td,th{
+            border : 1px solid black; 
+            /*cell padding*/
+            padding : 25px;
+        }
+        tr{
+            text-align : center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption> Student Details </caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>GPA</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Anis</td>
+                <td>3.92</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Rabeya</td>
+                <td>3.45</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Rasel</td>
+                <td>3.50</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+
+
+<!--
+    learning : 
+        1. table tag
+        2. thead tag
+        3. tbody tag
+        4. tr tag
+        5. td tag
+        6. th tag
+        7. border atribute
+        8. border-spacing atribute
+        9. padding
+-->
