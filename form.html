@@ -1,0 +1,119 @@
+<!--
+    note : 
+        # form create er maddome user er theke data neya jay
+        # form er maddome online a oneker data o neya jay 
+        # form create er jonno sob kaj amra form tag er vitore korbo
+        # text field er jonno input tag use hoy
+            -> input er vitor type atribute use kore onek kichu kora jay 
+        # dropdown menu create er jonno select tag use hoy input tag use hoy na
+        # text area create er jonno 
+        # submit reset 
+        # must know about input type first then code 
+        # checkbox a eker odik option select kora jay but radio button a just ektai select kora jay
+        # dropdown menu create er jonno select and option tag use hoy 
+        # dropdown a selected means eta by default thakbe option select korar age 
+        # multiline er text area er jonno jeta korte hobe 
+            ->  1. label nibo
+                2. textarea tag use korbo
+                3. textarea tag a col and row atribute use kore bole dite parbo kotouk jaga nibe text area ta 
+        # button use korar jonno input tag ba button tag use kora jay
+        # required attribute er kaj hocche eta j input a deya thakbe seta fillup na kore form submit korte parbe na keu
+        # kuno kicu disable korte caile disabled atribute use krbo
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <div>
+            <label for="Fullname">FullName :</label> <input type="text" name="Fullname" id="Fullname" required>
+            <p>
+        </div>
+
+        <div>
+            <label for="Email">Email :</label> <input type="email" name="Email" id="Email" required>
+            <p>
+        </div>
+
+        <div>
+            <label for="Password">Password :</label> <input type="password" name="password" id="password" required>
+            <p>
+        </div>
+
+        <div>
+            <label for="DOB">Date of Birth :</label> <input type="date" name="DOB" id="DOB" required>
+            <p>
+        </div>
+
+        <div>
+            <label for="photo">Choose your photo :</label> <input type="file" name="photo" id="photo" required>
+            <p>
+        </div>
+
+        <div>
+            <label for="photo">gender :</label>
+            <input type="radio" name="gender" id="gender" value="Male"> Male
+            <input type="radio" name="gender" id="gender" value="Female"> Female<p>
+        </div>
+
+        <div>
+            <label for="religion">Religion :</label>
+            <input type="checkbox" checked name="religion" id="Hindu" value="Hindu"> Hindu
+            <input type="checkbox" name="religion" id="Muslim" value="Muslim"> Muslim<p>
+        </div>
+
+        <div>
+            <label for="depertment">Depertment : </label>
+            <select name="depertment">
+                <option value="CSE">CSE</option>
+                <option value="SWE">SWE</option>
+                <option value="EEE">EEE</option>
+                <option value="BBA">BBA</option>
+                <option value="LLB">LLB</option>
+                <option value="ECO" selected>ECO</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="message">Message : </label><br>
+            <textarea cols="50" rows="20"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear" disabled>
+        </div>
+    </form>
+</body>
+
+</html>
+
+
+<!--
+    learning : 
+        * form tag
+        1. label tag
+        2. input tag 
+        3. for atribute
+        4. type atribute
+        5. name atribute
+        6. id atribute
+        7. required atribute
+        8. select tag 
+        9. option tag 
+        10. selected atribute 
+        11. disabled atribute
+        12. textarea tag
+
+        *** form tag er sobkicu valovabe jante hobe documentation pore 
+-->
