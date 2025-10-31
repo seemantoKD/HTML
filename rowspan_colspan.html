@@ -1,0 +1,72 @@
+<!--
+    note : 
+        1. rowspan -> onekgula row merge hoye ekta row
+        2. colspan -> onekgula col merge hoye ekta col
+        3. upor nic hole -> rowspan, dan bam hole -> colspan
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan colspan</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th colspan="2">Phone</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Seemanto</td>
+                <td>01719642934</td>
+                <td rowspan="3">01646270146</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Srijonti</td>
+                <td>01700524341</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Ritu</td>
+                <td>01700000000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+
+
+<!--
+    learning : 
+       1. rowspan
+       2. colspan 
+-->
